@@ -18,7 +18,7 @@ To send RSS feeds to wok groups through custom actions follow the below steps. T
 		* Action package- Select Action package ID that you have given in package.json file
 ## Section 2
 
-###How this works?
+### How this works?
 This is a two step process
 * Develop a custom action
 * Configure MS flow 
@@ -79,8 +79,8 @@ MS Flow should now be configured to directed the URL to a specific group in kaiz
 		*  Group- Select/Map the group name/group ID where you want to send the card ; Ex- Leadership team
 		* Action- By default is set to "kaizala"
 		* Action package- Select Action package ID that you have given in package.json file
-        * Body- By default, the variable actionBody is mapped to Body, if not, select it from dynamic content.
-        * Save the flow
+                *  Body- By default, the variable actionBody is mapped to Body, if not, select it from dynamic content.
+		* Save the flow
 	
 # Insert Lastbloack Pic
 
