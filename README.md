@@ -19,7 +19,7 @@ For typos, please do not create a pull request. Instead, declare them in issues 
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 
-### Pull Request Process
+## Pull Request Process
 Please consider the following criterions in order to help us in a better way:
 * The pull request is mainly expected to be a code script suggestion, improvement or a new business solution
 * A pull request related to non-code-script sections is expected to make a significant difference in the documentation. Otherwise, it is expected to be announced in the issues section.
