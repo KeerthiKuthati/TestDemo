@@ -1,7 +1,24 @@
-# Display RSS Feed updates in Kaizala groups
+# Display RSS Feeds in work groups
 
-RSS Feeds can be sent to Kaizala groups in the form of custom actions(cards).In this example latest technology trends(RSS: http://feeds.feedburner.com/TechCrunch) are sent to a kaizala group( Ex- Leadership team) 
+To send RSS feeds to wok groups through custom actions follow the below steps. The secation is divided into two. Section 1- Set up guide. Section 2- Detailed explanation of how this custom action works.
 
+## Section 1
+
+1. Download the action package
+2. Download the latest version of KAS client
+3. Unzip Action package folder and inlcude the latest version of KAS client and Zip it back
+4. Chnage the action ID in Package.json file
+5. Upload the folder in Management portal
+6. Download the Flow package
+7. Import the flow in FLow portal ( First change the settings to FLow old default)
+8. Edit the flow-
+                 Enter the following details in the last block and save
+		*  Group- Select/Map the group name/group ID where you want to send the card
+		* Action- By default is set to "kaizala"
+		* Action package- Select Action package ID that you have given in package.json file
+## Section 2
+
+###How this works?
 This is a two step process
 * Develop a custom action
 * Configure MS flow 
@@ -36,7 +53,7 @@ MS Flow should now be configured to directed the URL to a specific group in kaiz
 	*  Extract the files. Go to "TechnologyNews_RSSFeed_ActionPackage" and  open package.json file. It is mandatory to change the "id" to different name, in the demo you would see com.kaizala.rssfeedtitleweb.t3 , which can be modified as you wish or you can change the version in incremental manner by +1
     * You could also change the display name, Icon and description to give a suitable title . In this demo you would see
 		*  Display name- "RSS feed"
-        * Icon - "AppIcon.png"
+                * Icon - "AppIcon.png"
 		* Description- "Tech Trends"
     *  Select all the files in the folder, zip them together and upload on the portal
 * **Upload custom action**
