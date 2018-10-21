@@ -15,7 +15,7 @@ Quote of the day|
 
 Note: For all the above Business solutions KAS client is mandatory to be included as part of Action package. 
 * [Learn more about KAS client](https://github.com/MicrosoftDocs/kaizala-docs/tree/master/Articles/Actions/KASClient)
-* [Download latest version of KAS client]( https://github.com/MicrosoftDocs/kaizala-docs/tree/master/Articles/Actions/KASClient) 
+* [Download latest version of KAS client] 
 
 Download action package > Unzip folder > Add latest version KaS client> Zip the folder> Follow the steps mentioned in the documentation 
 
