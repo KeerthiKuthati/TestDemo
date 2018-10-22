@@ -15,7 +15,7 @@ This card has 3 fields in chat view- Card title(Ex- Tech Trends), Image, Feed ti
 
 Only the hosts whitelisted will be accesible within the card, if not, the content would be directed to a browser.
 
-# (Screenshot to Whitelist)
+#Screenshot to Whitelist
 
 ## Configure MS Flow
 MS Flow should now be configured to direct the card created above to a specific group in kaizala. In MS Flow you can only set one feed URL for every flow. To direct different feeds to same group, different flows has to be created.
@@ -52,7 +52,7 @@ MS Flow should now be configured to direct the card created above to a specific 
         *  RSS feed link- In this demo we use http://feeds.feedburner.com/TechCrunch
         * Card title- Tech Trends
     
-# Insert FirstBlock Pic 
+#Insert FirstBlock Pic 
             
 * **Send the card to a Kaizala group** 
     * Enter the following details in the last block and save
@@ -62,9 +62,9 @@ MS Flow should now be configured to direct the card created above to a specific 
         * Body- By default, the variable actionBody is mapped to Body, if not, select it from dynamic content.
         * Save the flow
     
-# Insert Lastbloack Pic
+#Insert Lastbloack Pic
 
 ### A card is sent to Demo Test group each time flow is triggered by RSS feed updates
 
-# Insert Final Pic 
+#Insert Final Pic 
 
