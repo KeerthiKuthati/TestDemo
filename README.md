@@ -35,6 +35,6 @@ Please consider the following criterions in order to help us in a better way:
 ## Issues
 * If something is broken, File a bug using the right label
 * If you want to try testing,  Look through [requests for testing] and start testing
-* Look through [open issues] and see if there's a topic  you happen to have experience with. And then, preferably, share that experience with others.
+* Look through [open issues](https://github.com/KeerthiKuthati/TestDemo/issues)and see if there's a topic  you happen to have experience with. And then, preferably, share that experience with others.
 * Find issues that need wiki entries and add the relevant info to the wiki.
 
