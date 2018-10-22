@@ -4,7 +4,7 @@ This is a two step process
 * Configure MS flow 
 
 ## Develop a Custom Action
-This is a simple card that has no creation view and no response view. This is an announcemnet in the form of a card,directed from MS Flow.
+This is a simple card that has no creation view and no response view. This is an announcemnet in the form of a card, directed to kaizala group using MS Flow.
 
 ### Chat Card view
 This card has 3 fields in chat view- Card title(Ex- Tech Trends), Image, Feed title ( title of the News feed and summary). Tapping this card on chat cavas opens white-listed URLS's within kaizala.
@@ -13,12 +13,12 @@ This card has 3 fields in chat view- Card title(Ex- Tech Trends), Image, Feed ti
 
 ### White-list the hosts in Package.json
 
-Only the hosts whitelisted will be accesible within the card, if not, the content would be directed to a browser.
+Only the hosts whitelisted will be accesible within the card, if not, the content will be directed to a browser.
 
 #Screenshot to Whitelist
 
 ## Configure MS Flow
-MS Flow should now be configured to direct the card created above to a specific group in kaizala. In MS Flow you can only set one feed URL for every flow. To direct different feeds to same group, different flows has to be created.
+MS Flow should be configured to direct the card created above to a specific group in kaizala. In MS Flow you can only set one feed URL. To direct different feeds to same group, different flows have to be created.
 
 # Implementation steps
 * **Create a group** -  This card works in Managed groups and Flat groups
@@ -50,7 +50,7 @@ MS Flow should now be configured to direct the card created above to a specific 
     * Once import is complete navigate to My Flows, open the imported Flow and click on Edit Flow
     * Enter the details in the first block based on your requirements, these include    
         *  RSS feed link- In this demo we use http://feeds.feedburner.com/TechCrunch
-        * Card title- Tech Trends
+        *  Card title- Tech Trends
     
 #Insert FirstBlock Pic 
             
@@ -64,7 +64,7 @@ MS Flow should now be configured to direct the card created above to a specific 
     
 #Insert Lastbloack Pic
 
-### A card is sent to Demo Test group each time flow is triggered by RSS feed updates
+### A card is sent to group each time flow is triggered by RSS feed updates
 
 #Insert Final Pic 
 
