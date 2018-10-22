@@ -21,13 +21,20 @@ Download action package > Unzip folder > Add latest version KaS client> Zip the 
 
 ## Contributions [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/KeerthiKuthati/TestDemo/pulls)
 
-When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change. In case og bugs, Please raise an issue by adding the right label.
-For typos, please do not create a pull request. Instead, declare them in issues or email the repository owner.
-
+When contributing to this repository, please first discuss the change you wish to make via issue with the owners of this repository before making a change. 
+* Want to fix a bug?  Fork the repo, Fix everything and create a pull request
+* Want to upload a new business solution or modify the existing solutions with new variations? Fork the repo, Make the necessary chnages and create a pull request
+* For typos, please do not create a pull request. Instead, declare them in issues with the right label.
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 
 ## Pull Request Process
 Please consider the following criterions in order to help us in a better way:
 * The pull request is mainly expected to be a code script suggestion, improvement or a new business solution
 * A pull request related to non-code-script sections is expected to make a significant difference in the documentation. Otherwise, it is expected to be announced in the issues section.
+
+## Issues
+* If something is broken, File a bug using the right label
+* If you want to try testing,  Look through [requests for testing] and start testing
+* Look through [open issues] and see if there's a topic  you happen to have experience with. And then, preferably, share that experience with others.
+* Find issues that need wiki entries and add the relevant info to the wiki.
 
