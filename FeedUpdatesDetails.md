@@ -9,7 +9,7 @@ This is a simple card that has no creation view and no response view. This is an
 ### Chat Card view
 This card has 3 fields in chat view- Card title(Ex- Tech Trends), Image, Feed title ( title of the News feed and summary). Tapping this card on chat cavas opens white-listed URLS's within kaizala.
 
-# Chat card view Pic
+#Chat card view Pic
 
 ### White-list the hosts in Package.json
 
