@@ -1,6 +1,7 @@
 # Business solutions using Kaizala
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://docs.microsoft.com/en-us/kaizala/partnerdocs/customerticketingsolution)
-
+ [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/KeerthiKuthati/TestDemo/pulls)
+ 
 Most businesses want to focus their IT resources to help with core functions, while in reality a large chunk of their resources goes into deployment, maintenance, and driving adoption of the custom apps that are built-in house for line of business operations.
 
 Kaizala provides an extensible platform that enables you to build custom Action cards for commonly-used tasks for organization which will show up in the Kaizala Actions palette like the [out-of-the-box cards](https://docs.microsoft.com/en-us/kaizala/actions/readme)
