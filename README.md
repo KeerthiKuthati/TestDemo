@@ -10,7 +10,7 @@ There are 2 ways you could create a custom action:
 * Customizing templates present in [Kaizala management portal](https://Manage.kaiza.la.com) 
 * Build / code a custom action
 
-This repository aims at providing ready to use, diverse set of business solutions using custom action cards. Solution listed here are motivated by real life scenario and introduces capabilities of Kaizala action cards. Each solution includes action package and, or flow package and documentation
+This repository aims at providing ready to use, diverse set of business solutions using custom action cards. Solution listed here are motivated by real life scenario and introduces capabilities of Kaizala action cards. Each solution package is a bundle of Action package and, or flow package, Sharepoint templates and documentation.
 
 ## Action package
 Kaizala platform provides developer an action package SDK (called KASClient.js) – which is a javascript library that abstracts out platform specific functionality and provides a way to interact with the underlying Kaizala runtime. The developer could build a custom action in HTML / JS / CSS by calling into the SDK. A custom action is a zipped bundle of few HTML/JS/CSS files, manifest files and KASClient.js – the action package SDK
