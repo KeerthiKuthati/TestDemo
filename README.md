@@ -23,8 +23,9 @@ Download action package > Unzip folder > Add latest version KaS client> Zip the 
 
 When contributing to this repository, please first discuss the change you wish to make via issue with the owners of this repository before making a change. 
 * Want to fix a bug?  Fork the repo, Fix everything and create a pull request
-* Want to upload a new business solution or modify the existing solutions with new variations? Fork the repo, Make the necessary chnages and create a pull request
+* Want to upload a new business solution or modify the existing solutions with new variations? Fork the repo, Make the necessary changes and create a pull request
 * For typos, please do not create a pull request. Instead, declare them in issues with the right label.
+
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 
 ## Pull Request Process
@@ -36,5 +37,4 @@ Please consider the following criterions in order to help us in a better way:
 * If something is broken, File a [bug](https://github.com/KeerthiKuthati/TestDemo/labels/bug)
 * If you want to try testing,  Look through [requests for test](https://github.com/KeerthiKuthati/TestDemo/labels/Testing%20required) and start testing
 * Look through [open issues](https://github.com/KeerthiKuthati/TestDemo/issues) and see if there's a topic  you happen to have experience with. And then, preferably, share that experience with others.
-* Find issues that [need wiki](https://github.com/KeerthiKuthati/TestDemo/labels/NeedWiki)entries and add the relevant info to the [wiki](https://github.com/KeerthiKuthati/TestDemo/wiki)
-
+* Find issues that [need wiki](https://github.com/KeerthiKuthati/TestDemo/labels/NeedWiki) entries and add the relevant info to the [wiki](https://github.com/KeerthiKuthati/TestDemo/wiki)
