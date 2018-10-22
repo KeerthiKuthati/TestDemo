@@ -1,6 +1,4 @@
-# Display RSS Feeds in work groups
-
-To keep the Mobile workforce updated, organizations can use this custom action to display internet ( RSS feed- Compete product information, industry feeds or interests) or intranet feed ( SharePoint announcement app- Company news, security alerts and events) in relevant kaizala groups. This means, one can display data from variety of sources and sites on work groups.
+# Set-Up guide
 
 Below are the steps to send RSS Feed updates in kaizala work groups
 
