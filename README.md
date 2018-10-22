@@ -58,4 +58,4 @@ Please consider the following criterions in order to help us in a better way:
 We will add you to this list if you make any meaningful contribution!
 * :Thumbsup: Atri
 * :Thumbsup: Raju
-* :Heart: [Keerthi]https://github.com/KeerthiKuthati
+* :Heart: [Keerthi](https://github.com/KeerthiKuthati)
