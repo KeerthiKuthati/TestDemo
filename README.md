@@ -19,11 +19,11 @@ Kaizala platform provides developer an action package SDK (called KASClient.js) 
 Solution description
 Documentation
 -------- |---
-**Corp communication**-*Display Industry trends in Kaizala from RSS Feeds*|[Documentation](https://github.com/KeerthiKuthati/TestDemo/blob/master/RSSFeedupdates.md)
-**Corp communication**- *Send corporate news to Kaizala from SharePoint news Center*|Documentation
-[**Incident management**](https://docs.microsoft.com/en-us/kaizala/partnerdocs/customerticketingsolution)- *Raise IT help desk tickets & track status*| Documentation
-**Breakfast report**- *Visualize real time sales funnel data*|Documentation
-**Sales order**- *Take orders from retailers for feet-on-street employees*|Documentation
+**Corp communication**-*Display Industry trends in Kaizala from RSS Feeds*|[Solution Package](https://github.com/KeerthiKuthati/TestDemo/blob/master/RSSFeedupdates.md)
+**Corp communication**- *Send corporate news to Kaizala from SharePoint news Center*|Solution Package
+[**Incident management**](https://docs.microsoft.com/en-us/kaizala/partnerdocs/customerticketingsolution)- *Raise IT help desk tickets & track status*| Solution package
+**Breakfast report**- *Visualize real time sales funnel data*|Solution Package
+**Sales order**- *Take orders from retailers for feet-on-street employees*|Solution Package
 
 **You can find more solutions [here](https://docs.microsoft.com/en-us/kaizala/partnerdocs/customerticketingsolution)**
 
