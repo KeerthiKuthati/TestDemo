@@ -15,19 +15,18 @@ This repository aims at providing ready to use, diverse set of business solution
 ## Action package
 Kaizala platform provides developer an action package SDK (called KASClient.js) – which is a javascript library that abstracts out platform specific functionality and provides a way to interact with the underlying Kaizala runtime. The developer could build a custom action in HTML / JS / CSS by calling into the SDK. A custom action is a zipped bundle of few HTML/JS/CSS files, manifest files and KASClient.js – the action package SDK
 
-## Business solutions
-Solution
+## Business solutions using custom action cards
 Solution description
 Action Package
 FLow Package
 Documentation
 -------- |---|----|---
-Corp communication-Display Industry trends to Kaizala from RSS Channels | Action package.zip Link|Flow Package.zip Link |[Documentation](https://github.com/KeerthiKuthati/TestDemo/blob/master/RSSFeedupdates.md)
-Corp communication- Send corporate Event Alerts to Kaizala from SharePoint Lists |Action Package.zip Link| None| Documentation
-Corp communication- Send the corporate communication to Kaizala from SharePoint News Center|---|----| Documentation
-Incident management- Raise IT help desk tickets & track status
-Breakfast report- Visualize real time sales funnel data 
-Sales order- Take orders from retailers for feet on street employees
+**Corp communication**-Display Industry trends to Kaizala from RSS Feeds| Action package.zip Link|Flow Package.zip Link |[Documentation](https://github.com/KeerthiKuthati/TestDemo/blob/master/RSSFeedupdates.md)
+**Corp communication**- Send periodic events, alerts to Kaizala from SharePoint list |Action Package.zip Link| None| Documentation
+**Corp communication**- Send corporate news to Kaizala from SharePoint news Center|---|----| Documentation
+**Incident management**- Raise IT help desk tickets & track status from managed public groups
+**Breakfast report**- Visualize real time sales funnel data 
+**Sales order**- Take orders from retailers for feet-on-street employees
 
 
 *Note*: For all the solutions KAS client is mandatory to be included as part of Action package. 
