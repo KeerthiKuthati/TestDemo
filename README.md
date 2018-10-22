@@ -1,7 +1,7 @@
 # Business Solutions 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://docs.microsoft.com/en-us/kaizala/partnerdocs/customerticketingsolution)
 
-This repository aims to provide ready to use solutions/custom action cards in Kaizala. Each business solution is motivated by a real life scenario. Each solution includes an Action package and, or Flow package and documentation.
+This repository aims to provide ready to use solutions/custom action cards in Kaizala. Each solution listed here is motivated by a real life scenario. Each solution includes an Action package and, or Flow package and documentation.
 
 Solutions
 Action Package
@@ -13,11 +13,8 @@ Employee to Employee digital recognition |Action Package.zip Link| None| Documen
 Intenal news center|
 Quote of the day|
 
-Note: For all the above Business solutions KAS client is mandatory to be included as part of Action package. 
-* [Learn more about KAS client](https://github.com/MicrosoftDocs/kaizala-docs/tree/master/Articles/Actions/KASClient)
-* [Download latest version of KAS client] 
-
-Download action package > Unzip folder > Add latest version KaS client> Zip the folder> Follow the steps mentioned in the documentation 
+Note: For all the solutions KAS client is mandatory to be included as part of Action package. 
+* [Download latest version of KAS client](https://github.com/MicrosoftDocs/kaizala-docs/tree/master/Articles/Actions/KASClient) 
 
 ## Contributions [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/KeerthiKuthati/TestDemo/pulls)
 
