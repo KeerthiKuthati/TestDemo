@@ -1,7 +1,18 @@
-# Business Solutions 
+# Business solutions using Kaizala
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://docs.microsoft.com/en-us/kaizala/partnerdocs/customerticketingsolution)
 
-This repository aims to provide ready to use solutions/custom action cards in Kaizala. Each solution listed here is motivated by a real life scenario. Each solution includes an Action package and, or Flow package and documentation.
+Kaizala platform allows you to extend the client side functionality through custom actions (or cards). While all businesses want to focus their IT resources to help with core functions, the reality is that a large chunk of resources goes into deployment, maintenance, and driving adoption of the custom apps that are built-in house for line of business operations.
+
+Kaizala provides an extensible platform that enables you to build custom Action cards for commonly-used tasks for organization which will show up in the Kaizala Actions palette like the out-of-the-box cards.
+
+There are 2 ways you could create a custom action:
+* Customizing templates present in [Kaizala management portal](https://Manage.kaiza.la.com) 
+* Build / code a custom action
+
+This repository provide ready to use, diverse set of business solutions using custom action cards. Solution listed here are motivated by real life scenario and introduces capabilities of Kaizala action cards. Each solution includes action package and, or flow package and documentation
+
+# what is an action package?
+Kaizala platform provides developer an action package SDK (called KASClient.js) – which is a javascript library that abstracts out platform specific functionality and provides a way to interact with the underlying Kaizala runtime. The developer could build a custom action in HTML / JS / CSS by calling into the SDK. A custom action is a zipped bundle of few HTML/JS/CSS files, manifest files and KASClient.js – the action package SDK
 
 Solutions
 Action Package
