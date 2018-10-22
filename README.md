@@ -22,8 +22,8 @@ Download action package > Unzip folder > Add latest version KaS client> Zip the 
 ## Contributions [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/KeerthiKuthati/TestDemo/pulls)
 
 When contributing to this repository, please first discuss the change you wish to make via issue with the owners of this repository before making a change. 
-* Want to fix a bug?  Fork the repo, Fix everything and create a pull request
-* Want to upload a new business solution or modify the existing solutions with new variations? Fork the repo, Make the necessary changes and create a pull request
+* To fix a bug, fork the repo, Fix everything and create a pull request
+* To upload a new business solution or modify the existing solutions with new variations,  Fork the repo, Make the necessary changes and create a pull request
 * For typos, please do not create a pull request. Instead, declare them in issues with the right label.
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
