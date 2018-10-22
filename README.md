@@ -11,21 +11,26 @@ There are 2 ways you could create a custom action:
 
 This repository aims at providing ready to use, diverse set of business solutions using custom action cards. Solution listed here are motivated by real life scenario and introduces capabilities of Kaizala action cards. Each solution includes action package and, or flow package and documentation
 
-# what is an action package?
+# Action package
 Kaizala platform provides developer an action package SDK (called KASClient.js) – which is a javascript library that abstracts out platform specific functionality and provides a way to interact with the underlying Kaizala runtime. The developer could build a custom action in HTML / JS / CSS by calling into the SDK. A custom action is a zipped bundle of few HTML/JS/CSS files, manifest files and KASClient.js – the action package SDK
 
-Solutions
+# Business solutions
+Solution
+Solution description
 Action Package
 FLow Package
 Documentation
------------- | ------------- |-------|---------
-RSS Feed updates to work groups | Action package.Zip Link|Flow Package.Zip Link |[Documentation](https://github.com/KeerthiKuthati/TestDemo/blob/master/RSSFeedupdates.md)
-Employee to Employee digital recognition |Action Package.zip Link| None| Documentation
-Intenal news center|
-Quote of the day|
+------------ | ------------- |-------|---------|-------
+Display Industry Updates on kaizala|Send Industry trends to Kaizala from RSS Channels | Action package.zip Link|Flow Package.zip Link |[Documentation](https://github.com/KeerthiKuthati/TestDemo/blob/master/RSSFeedupdates.md)
+Send Internal Periodic Alerts|Send corporate Event Alerts to Kaizala from SharePoint Lists |Action Package.zip Link| None| Documentation
+Send Internal News|Send the corporate communication to Kaizala from SharePoint News Center|---|----| Documentation
+Real time incident management| Raise IT help desk tickets & track status in Public groups
+Access Business metrics on the go|Visualize real time sales funnel data 
+Collect Sales order data from feet on street| Order taking card for feet on street from retailers
+
 
 Note: For all the solutions KAS client is mandatory to be included as part of Action package. 
-* [Download latest version of KAS client](https://github.com/MicrosoftDocs/kaizala-docs/tree/master/Articles/Actions/KASClient) 
+[Download latest version of KAS client](https://github.com/MicrosoftDocs/kaizala-docs/tree/master/Articles/Actions/KASClient) 
 
 ## Contributions [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/KeerthiKuthati/TestDemo/pulls)
 
