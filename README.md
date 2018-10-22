@@ -24,7 +24,7 @@ Documentation
 **Corp communication**-*Display Industry trends in Kaizala from RSS Feeds*| Action package.zip Link|Flow Package.zip Link |[Documentation](https://github.com/KeerthiKuthati/TestDemo/blob/master/RSSFeedupdates.md)
 **Corp communication**- *Send periodic events, alerts to Kaizala from SharePoint list* |Action Package.zip Link| None| Documentation
 **Corp communication**- *Send corporate news to Kaizala from SharePoint news Center*|---|----| Documentation
-**Incident management**- *Raise IT help desk tickets & track status from managed public groups*
+**Incident management**- *Raise IT help desk tickets & track status*
 **Breakfast report**- *Visualize real time sales funnel data*
 **Sales order**- *Take orders from retailers for feet-on-street employees*
 
