@@ -17,7 +17,7 @@ Below are the steps to send RSS Feed updates in kaizala work groups
 		* Action- By default is set to "kaizala"
 		* Action package- Select Action package ID that you have given in package.json file
 
-RSS Feeds will be sent to the chosen Kaizala group, ecah time is triggered by RSS Updates
+RSS Feeds will be sent to the chosen Kaizala group, ecah time flow is triggered by RSS Updates
 		
 Learn how this custom action works [here]()
 
