@@ -20,12 +20,12 @@ Solution description
 Action Package
 FLow Package
 Documentation
--------- |---|----|---
-**Corp communication**-*Display Industry trends in Kaizala from RSS Feeds*| Action package.zip Link|Flow Package.zip Link |[Documentation](https://github.com/KeerthiKuthati/TestDemo/blob/master/RSSFeedupdates.md)
-**Corp communication**- *Send corporate news to Kaizala from SharePoint news Center*|---|----| Documentation
-**Incident management**- *Raise IT help desk tickets & track status*
-**Breakfast report**- *Visualize real time sales funnel data*
-**Sales order**- *Take orders from retailers for feet-on-street employees*
+-------- |---
+**Corp communication**-*Display Industry trends in Kaizala from RSS Feeds*|[Documentation](https://github.com/KeerthiKuthati/TestDemo/blob/master/RSSFeedupdates.md)
+**Corp communication**- *Send corporate news to Kaizala from SharePoint news Center*|Documentation
+**Incident management**- *Raise IT help desk tickets & track status*| Documentation
+**Breakfast report**- *Visualize real time sales funnel data*|Documentation
+**Sales order**- *Take orders from retailers for feet-on-street employees*|Documentation
 
 **You can find more solutions [here](https://docs.microsoft.com/en-us/kaizala/partnerdocs/customerticketingsolution)**
 
