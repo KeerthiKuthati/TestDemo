@@ -19,6 +19,4 @@ Below are the steps to send RSS Feed updates in kaizala work groups
 
 RSS Feeds will be sent to the chosen Kaizala group, ecah time flow is triggered by RSS Updates
 		
-Learn how this custom action works [here]()
-
-
+Learn how this custom action works [here](https://github.com/KeerthiKuthati/TestDemo/blob/master/FeedUpdatesDetails.txt)
