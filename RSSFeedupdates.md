@@ -2,13 +2,13 @@
 
 Below are the steps to send RSS Feed updates in kaizala work groups
 
-1. Download the action package
-2. Download the latest version of [KAS client]
-3. Unzip action package, inlcude the latest version of KAS client and Zip it back
-4. Change the action ID in Package.json file or the version in incremental manner by +1
-5. Upload the folder in [Management portal]
+1. Download the action package[Link]
+2. Download the latest version of [Link KAS client]
+3. Change the action ID in Package.json file or the version in incremental manner by +1
+4. Unzip action package, inlcude the latest version of KAS client and Zip it back
+5. Upload the Action package Zip folder in [Link Management portal]
 6. Download the Flow package
-7. Import the flow in MS FLow portal (First change the settings to FLow old default)
+7. Import the flow in MS FLow portal (In settings, Find and set the to FLow in old default view)
 8. Edit the flow-
                  Enter the following details in the last block of the Flow and save
 		* Group- Select/Map the group name/group ID where you want to send the card
