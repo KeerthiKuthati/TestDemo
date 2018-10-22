@@ -1,6 +1,6 @@
-![alt text](https://github.com/KeerthiKuthati/TestDemo/blob/master/Kaizala%20Image.JPG)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://docs.microsoft.com/en-us/kaizala/partnerdocs/customerticketingsolution)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/KeerthiKuthati/TestDemo/pulls)
+![alt text](https://github.com/KeerthiKuthati/TestDemo/blob/master/Kaizala%20Image.JPG)
 # Business solutions using Kaizala
 Most businesses want to focus their IT resources to help with core functions, while in reality a large chunk of their resources goes into deployment, maintenance, and driving adoption of the custom apps that are built-in house for line of business operations.
 
