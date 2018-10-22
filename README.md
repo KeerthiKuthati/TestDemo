@@ -21,7 +21,7 @@ Solution description
 Action Package
 FLow Package
 Documentation
------------- | ------------- |-------|---------|-------
+----| -------- |---|----|---
 Display Industry Updates on kaizala|Send Industry trends to Kaizala from RSS Channels | Action package.zip Link|Flow Package.zip Link |[Documentation](https://github.com/KeerthiKuthati/TestDemo/blob/master/RSSFeedupdates.md)
 Send Internal Periodic Alerts|Send corporate Event Alerts to Kaizala from SharePoint Lists |Action Package.zip Link| None| Documentation
 Send Internal News|Send the corporate communication to Kaizala from SharePoint News Center|---|----| Documentation
@@ -30,7 +30,8 @@ Access Business metrics on the go|Visualize real time sales funnel data
 Collect Sales order data from feet on street| Order taking card for feet on street from retailers
 
 
-Note: For all the solutions KAS client is mandatory to be included as part of Action package. 
+*Note*: For all the solutions KAS client is mandatory to be included as part of Action package. 
+
 [Download latest version of KAS client](https://github.com/MicrosoftDocs/kaizala-docs/tree/master/Articles/Actions/KASClient) 
 
 ## Contributions [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/KeerthiKuthati/TestDemo/pulls)
