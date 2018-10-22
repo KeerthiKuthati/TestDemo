@@ -17,8 +17,6 @@ Kaizala platform provides developer an action package SDK (called KASClient.js) 
 
 ## Business solutions using custom action cards
 Solution description
-Action Package
-FLow Package
 Documentation
 -------- |---
 **Corp communication**-*Display Industry trends in Kaizala from RSS Feeds*|[Documentation](https://github.com/KeerthiKuthati/TestDemo/blob/master/RSSFeedupdates.md)
