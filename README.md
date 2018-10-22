@@ -33,8 +33,8 @@ Please consider the following criterions in order to help us in a better way:
 * A pull request related to non-code-script sections is expected to make a significant difference in the documentation. Otherwise, it is expected to be announced in the issues section.
 
 ## Issues
-* If something is broken, File a bug using the right [label](https://github.com/KeerthiKuthati/TestDemo/labels/bug)
+* If something is broken, File a [bug](https://github.com/KeerthiKuthati/TestDemo/labels/bug)
 * If you want to try testing,  Look through [requests for test](https://github.com/KeerthiKuthati/TestDemo/labels/Testing%20required) and start testing
-* Look through [open issues] (https://github.com/KeerthiKuthati/TestDemo/issues)and see if there's a topic  you happen to have experience with. And then, preferably, share that experience with others.
+* Look through [open issues](https://github.com/KeerthiKuthati/TestDemo/issues)and see if there's a topic  you happen to have experience with. And then, preferably, share that experience with others.
 * Find issues that need wiki entries and add the relevant info to the wiki.
 
