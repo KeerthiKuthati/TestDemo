@@ -1,4 +1,4 @@
-# Display RSS Feed updates on Kaizala work groups
+# Display RSS Feed updates in Kaizala using custom Action
 This is a two step process
 * Develop a custom action
 * Configure MS flow 
@@ -20,7 +20,7 @@ Only the hosts whitelisted will be accesible within the card, if not, the conten
 ## Configure MS Flow
 MS Flow should now be configured to direct the card created above to a specific group in kaizala. In MS Flow you can only set one feed URL for every flow. To direct different feeds to same group, different flows has to be created.
 
-# Set-Up Guide
+# Implementation steps
 * **Create a group** -  This card works in Managed groups and Flat groups
     * To set up flat group-
         *  Login to the Kaizala Management Portal (http://manage.kaiza.la) and navigate to Groups on the left menu and click on “Create Group” button at top right of the Groups page
@@ -68,5 +68,3 @@ MS Flow should now be configured to direct the card created above to a specific 
 
 # Insert Final Pic 
 
-
-Sign Up and download the action package
