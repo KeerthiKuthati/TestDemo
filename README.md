@@ -56,4 +56,4 @@ We will add you to this list if you make any meaningful contribution!
 * :star: Atri
 * :thumbsup: Raju
 * :rocket: [Keerthi](https://github.com/KeerthiKuthati)
-* :ship: Ayush
+* :bow: Ayush
