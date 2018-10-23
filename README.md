@@ -53,7 +53,7 @@ Please consider the following criterions in order to help us in a better way:
 
 ## :clap: Contributors :clap:
 We will add you to this list if you make any meaningful contribution!
-* :thumbsup: Atri
+* :star: Atri
 * :thumbsup: Raju
 * :rocket: [Keerthi](https://github.com/KeerthiKuthati)
 * :ship: Ayush
