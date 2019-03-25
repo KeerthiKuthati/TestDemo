@@ -7,16 +7,16 @@ Excel from your onedrive for business is consumed by Flow and leaderboard card i
 
 Chat card view 
 
-<img src="Leaderboard/2.JPG" width="150">
+<img src="https://github.com/KeerthiKuthati/TestDemo/blob/master/2.jpg" width="250">
 
 
 Immersive view
 
-This view has two tabs, first being wall of fame for Top 10 performers, second is "My performance" which is different for each user.
-<img src="Leaderboard/1.PNG" width="150">
+This view has two tabs, first being wall of fame for Top 10 performers , second is "My performance" which is different for each user.
+
+<img src="https://github.com/KeerthiKuthati/TestDemo/blob/master/1.png" width="250">
 
 My Performance has 2 sections that displays KPI's and near by ranks. 
-<img src="Leaderboard/5.PNG" width="150">
 
 
 ## Implementation steps
@@ -39,7 +39,7 @@ This can be broadly divided into 3 steps:
 
 1.Fill all mandatory fields-Name, PhoneNo and Score. Apart from these three mandatory fields, flow considers the rest as KPI's that are diaplyed in "My performance" tab.
 
-<img src="Leaderboard/3.JPG" width="600">
+<img src="https://github.com/KeerthiKuthati/TestDemo/blob/master/3.jpg">
 
 > Note: Columns can have Numeric or % values. If the column has percentages, apply [percent number](https://support.office.com/en-ie/article/format-numbers-as-percentages-de49167b-d603-4450-bcaa-31fba6c7b6b4) format to that column
 
@@ -61,10 +61,10 @@ This can be broadly divided into 3 steps:
 
     1. In the second block, enter the card title in value field, that you want to show in the leaderboard. For E.g, "Sales Leaderboard" 
 
-       <img src="Leaderboard/4.JPG" width="600">
+       <img src="https://github.com/KeerthiKuthati/TestDemo/blob/master/4.jpg" width="600">
     
     2. In the third block, set value as  true if the "score" is percentage, if not set it to false
-        <img src="Leaderboard/6.JPG" width="600">
+        <img src="https://github.com/KeerthiKuthati/TestDemo/blob/master/6.JPG" width="600">
 
     3. In the seventh block
        1.Select Location as "OneDrive for Business" from dropdown
@@ -73,33 +73,32 @@ This can be broadly divided into 3 steps:
      
        > Note: Table name that you have given in excel file earlier will automatically picked up by the flow. 
        
-       <img src="Leaderboard/7.JPG" width="600">
+       <img src="https://github.com/KeerthiKuthati/TestDemo/blob/master/7.JPG" width="600">
 
 
     4. In the eighth block "Apply to each", 
         1. Edit KPI names as you have given in the excel table in Parse JSON block fFor E.g, Calls, Deals closed, Productivity, Revenue etc. (*as shown below*)
 
-        <img src="Leaderboard/8.JPG" width="600">
+        <img src="https://github.com/KeerthiKuthati/TestDemo/blob/master/8.JPG" width="600">
 
         >Note: Card can display max of 6 KPI's 
 
         2. Edit KPI names as in the excel table in Compose 1 & 2 (*as shown below*)
         
-        <img src="Leaderboard/9.JPG" width="600">
+        <img src="https://github.com/KeerthiKuthati/TestDemo/blob/master/9.JPG" width="600">
 
         
     5. In the last block
 
-         1. Enter the group ID or select group name to where you want to send the card
-
+        1. Enter the group ID or select group name to where you want to send the card
         2. Click on Action to select "Action Package" 
+	        3. Click on Action package to enter action "id" that you have given in package.json
 
-         3. Click on Action package to enter action "id" that you have given in package.json
-
-		4. Map body to "ActionBodyProperties"
+	         4. Map body to "ActionBodyProperties"
+	  
         5. Save the Flow
 
-        <img src="Leaderboard/10.JPG" width="600">
+        <img src="https://github.com/KeerthiKuthati/TestDemo/blob/master/10.JPG">
 
 Leaderboard card will be sent to the specified group as per the interval and frequency set in the Flow. 
 
