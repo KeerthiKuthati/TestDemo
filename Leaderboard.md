@@ -83,9 +83,9 @@ This can be broadly divided into 3 steps:
 
         >Note: Card can display max of 6 KPI's 
 
-        2. Edit KPI names as in the excel table in Compose 1 & 2 (*as shown below*)
+        2. Edit KPI names as given in the excel table in Compose (*as shown below*)
         
-        <img src="https://github.com/KeerthiKuthati/TestDemo/blob/master/9.JPG" width="600">
+        <img src="https://github.com/KeerthiKuthati/TestDemo/blob/master/9.png" width="600">
 
         
     5. In the last block
