@@ -90,8 +90,8 @@ This can be broadly divided into 3 steps:
         
     5. In the last block
 
-        1. Enter the group ID or select group name to where you want to send the card
-        2. Click on Action to select "Action Package"      
+               1. Enter the group ID or select group name to where you want to send the card
+               2. Click on Action to select "Action Package"      
 	       3. Click on Action package to enter action "id"
 	       4. Map body to "ActionBodyProperties
                5. Save the Flow
