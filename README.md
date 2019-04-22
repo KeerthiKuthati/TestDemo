@@ -7,7 +7,7 @@ Most businesses want to focus their IT resources to help with core functions, wh
 Kaizala provides an extensible platform that enables you to build custom Action cards for commonly-used tasks for organization which will show up in the Kaizala Actions palette like the [out-of-the-box cards](https://docs.microsoft.com/en-us/kaizala/actions/readme)
 
 There are 2 ways you could create a custom action:
-* Customizing templates present in [Kaizala management portal](https://Manage.kaiza.la.com) 
+* Customizing templates present in [Kaizala management portal](https://aka.ms/JoinGrabOn)
 * Build / code a custom action
 
 This repository aims at providing ready to use, diverse set of business solutions using custom action cards. Solution listed here are motivated by real life scenario and introduces capabilities of Kaizala action cards. Each solution package is a bundle of Action package and, or flow package, Sharepoint templates and documentation.
