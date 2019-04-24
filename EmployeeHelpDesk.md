@@ -122,7 +122,7 @@ This is broadly divided into 3 steps:
 
 4. [Edit list view](https://support.office.com/en-gb/article/edit-a-list-view-in-sharepoint-online-15916903-e79a-423f-b4e2-02d37e1ff372) to position ID in first place.This is the unique ticket ID that will be displayed in the card, once the ticket is assigned.
 
-     >Note: [Download](GithubLink) excel template for reference
+     >Note: [Download](https://github.com/KeerthiKuthati/TestDemo/blob/master/HelpdeskTemplate.xlsx) excel template for reference
 
 ### Import and Set up Flows
 
