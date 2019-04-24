@@ -1,6 +1,6 @@
 # Employee Help Desk
 
- In an Organization, helpdesk team looks into the queries raised by employees, assigns it to a field agent and updates back the resolution status to the employee. All the queries are logged in as tickets for easy tracking and resolution. A ticketing system enables helpdesk agents to systematically capture, categorize, resolve and collect feedback. This enables an organization to be effective in issue resolution and has a multiplier effect on employee satisfaction scores.
+ In an Organization, helpdesk team looks into the queries raised by employees, assigns it to a field agent and updates back the resolution status to the employee. All the queries are logged in as tickets for easy tracking and resolution. A ticketing system enables helpdesk agents to systematically capture, categorize, resolve and collect feedback. This enables an organization to be effective in query resolution and has a multiplier effect on employee satisfaction scores.
 
 This solution uses Kaizala as the front-end, SharePoint as the backend and Flow as a means to interact with Kaizala and SharePoint. A user creates the ticket by submitting a form in Kaizala, ticket details submitted using this card is captured and stored in the SharePoint using Flow.
 
