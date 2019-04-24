@@ -28,7 +28,7 @@ If the user is satisfied with the proposed resolution, user has the ability to c
 
    User Feedback view
 
-   <img src="EmployeeHelpDesk-Images/4.jpg" width="300">
+   <img src="4.jpg" width="300">
 
 
 ## Implementation Steps:
