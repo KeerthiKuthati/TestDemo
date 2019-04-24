@@ -5,7 +5,7 @@
 This solution uses Kaizala as the front-end, SharePoint as the backend and Flow as a means to interact with Kaizala and SharePoint. A user creates the ticket by submitting a form in Kaizala, ticket details submitted using this card is captured and stored in the SharePoint using Flow.On submission, User gets an updated card, either when-
    1. Help desk agent updates the status of the ticket in SharePoint (New, Assigned or Resolved) or
 
-   2. Help desk agents addscomments on the ticket in SharePoint or 
+   2. Help desk agents adds comments on the ticket in SharePoint or 
 
    3. Both, help desk agent updates status and adds comments in SharePoint
 
