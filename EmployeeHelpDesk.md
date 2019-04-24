@@ -16,19 +16,19 @@ If the user is satisfied with the proposed resolution, user has the ability to c
 
   User view of ticket creation and submission:
 
-  <img src="EmployeeHelpDesk-Images/1.JPG" width="300">
+  <img src="1.jpg" width="300">
 
    View on updating the status to "Assigned" in sharepoint and the corresponding card that is sent to user
 
-   <img src="EmployeeHelpDesk-Images/2.JPG" width="600">
+   <img src="2.jpg" width="600">
 
    View of status being updated to "Resolved" in sharepoint and the corresponding card that is sent to user
    
-   <img src="EmployeeHelpDesk-Images/3.JPG" width="600">
+   <img src="3.jpg" width="600">
 
    User Feedback view
 
-   <img src="EmployeeHelpDesk-Images/4.JPG" width="300">
+   <img src="EmployeeHelpDesk-Images/4.jpg" width="300">
 
 
 ## Implementation Steps:
@@ -144,7 +144,7 @@ This solution has 3 Flows,
 
                3. Map action to "All"
 
-                  <img src="EmployeeHelpDesk-Images/5.JPG" width="600">
+                  <img src="5.JPG" width="600">
 
           2. In the Last block
 
@@ -152,7 +152,7 @@ This solution has 3 Flows,
 
                2. Enter List Name
                   
-                  <img src="EmployeeHelpDesk-Images/6.JPG" width="600">
+                  <img src="6.JPG" width="600">
 
                    > Note: All the columns in the SharePoint list will be displayed in Flow on entering Sharepoint Site address & List Name. Verify the mapping of SharePoint list fields in Flow. 
 
@@ -171,7 +171,7 @@ This solution has 3 Flows,
 
                2. Enter List Name
 
-                  <img src="EmployeeHelpDesk-Images/6.5.JPG" width="600">
+                  <img src="6.5.jpg" width="600">
 
           2. In the last block
 
@@ -183,7 +183,7 @@ This solution has 3 Flows,
 
                4. Map body to "ActionBody"
 
-                  <img src="EmployeeHelpDesk-Images/7.JPG" width="600">
+                  <img src="7.JPG" width="600">
 
         3.  Save the Flow
     
@@ -201,7 +201,7 @@ This solution has 3 Flows,
 
              3. Map action to "All"
 
-                <img src="EmployeeHelpDesk-Images/8.JPG" width="600">
+                <img src="8.JPG" width="600">
 
         2. In the second block
 
@@ -209,7 +209,7 @@ This solution has 3 Flows,
 
              2. Enter the list name 
 
-                <img src="EmployeeHelpDesk-Images/9.JPG" width="600">
+                <img src="9.JPG" width="600">
 
         3. In the Last block
 
@@ -217,6 +217,6 @@ This solution has 3 Flows,
 
              2. Enter the list name
 
-                <img src="EmployeeHelpDesk-Images/10.JPG" width="600">
+                <img src="10.JPG" width="600">
 
         4.  Save the Flow
