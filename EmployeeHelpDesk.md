@@ -1,8 +1,15 @@
 # Employee Help Desk
 
-Employees contact helpdesk with questions or issues. Helpdesk teams look into the issue, assigns it to the right field agent and updates the resolution status to the end user. All the queries are logged in as tickets by organizations for easy tracking and resolution. A ticketing systems enables help desk agents to systematically capture, categorize, resolve and collect feedback. This enables an organization to be organized, effective and effective which has a direct impact on employee satisfaction scores.
+ In an Organization,helpdesk team looks into the issues raised by employees, assigns it to the right field agent and updates back the resolution status to the employee. All the queries are logged in as tickets by organizations for easy tracking and resolution. A ticketing systems enables help desk agents to systematically capture, categorize, resolve and collect feedback. This enables an organization to be effective in issue resolution and has a multiplier effect on employee satisfaction scores.
 
-This solution uses Kaizala as the front-end, SharePoint as the backend and Flow as a means to interact with Kaizala and SharePoint. When the Help desk agent manages the SharePoint list to update status or adds comment to the ticket, the solution keeps the user updated. It also allows the user to share feedback and  reopen the ticket if required.
+This solution uses Kaizala as the front-end, SharePoint as the backend and Flow as a means to interact with Kaizala and SharePoint. User creates the ticket by submitting a form in Kaizala, the data submitted in the card is captured and stored in the sharepoint using Flow.
+On submission, User gets notified, either when-
+1. Help desk agent updates the status of the ticket in sharepoint (New, Assigned or Resolved) or
+2. Help desk agents comments on the ticket in sharepoint or 
+3. Both, help desk agent updates status and adds comments
+
+If user is satisfied with the proposed resolution, user has the ability to close the ticket and submit feedback. If the user is not satisfied with the resolution, user can re-open the ticket. Based on user Feedback (rating and comments) and status is updated to Reopened or closed in sharepoint.
+
 
 > Note: This card works only in Hub and spoke groups
 
@@ -22,14 +29,14 @@ This is broadly divided into 3 steps:
 1. Download the ["EmployeeHelpDesk-SolutionPackage.zip"](Placeholder for Github link) (*This contains 2 action packages and 3 Flows*)
 2. Download the latest version of Kaizala ["ActionSDK.Zip"](https://manage.kaiza.la/MiniApps/DownloadSDK) (*This contains KASClient.js*)
 3. Set up the "CreateTicket-ActionPackage.Zip"
-    1. Unzip "CreateTicket-ActionPackage.Zip" to a folder
+   1. Unzip "CreateTicket-ActionPackage.Zip" to a folder
    2. Change the action "id" and "provider name" in package.json
    3. Add KASClient.js to this folder 
    4. Zip all the contents in this folder (*This folder is your modified action package which should be imported to Kaizala Management Portal*)
    5. [Import](https://docs.microsoft.com/en-us/kaizala/actions/publish#import-kaizala-action) the edited action package to [kaizala Management Portal](https://manage.kaiza.la/)
    6. [Publish](https://docs.microsoft.com/en-us/kaizala/actions/publish) the action and add the action to a group where you want to add the card
    7. Select user roles as admin and member
-4. Set up "ReplyFromHelpDesk-ActionPackage.Zip"
+4. Set up "StatusUpdateFromHelpDesk-ActionPackage.Zip"
    1.  Unzip "ReplyFromHelpDesk-ActionPackage.Zip" to a folder
    2. Change the action "id" and "provider name" in package.json
    3. Add KASClient.js to this folder 
@@ -38,47 +45,43 @@ This is broadly divided into 3 steps:
    6. [Publish](https://docs.microsoft.com/en-us/kaizala/actions/publish) the action and add the action to a group where you want to add the card
    7. Select user role as admin
 
- > Note: "CreateTicket-ActionPackage.Zip" is the card that is used to raise a ticket and should be made available to admin and members."ReplyFromHelpDesk-ActionPackage.Zip" is used to show updates to the ticket. Users do not have to see this card in action palette, hence this is only made visible to admin. All the updates are sent automatically using Flow. 
+ > Note: "CreateTicket-ActionPackage.Zip" is the card that is used to raise a ticket and should be made available to admin and Subscribers."StatusUpdateFromHelpDesk-ActionPackage.Zip" show helpdesk comments and status updates. Subscribers do not have to see this card in action palette, hence this is only made visible to admin.
 
 ### Set up a SharePoint List
+
 1. [Create](https://support.office.com/en-us/article/create-a-list-in-sharepoint-0d397414-d95f-41eb-addd-5e6eff41b083) a new list in SharePoint
-2. [Add columns](https://support.office.com/en-us/article/create-a-column-in-a-sharepoint-list-or-library-2b0361ae-1bd3-41a3-8329-269e5f81cfa2) for questions in the card based on question types- Numeric, Single line of text and multi select text. (*as below in the same order*) [placeholder for pic]
- (*as below in the same order*) [placeholder for pic]
 
-    1. ID (default Sharepoint column)
-    2. Department 
-    3. Location
-    4. Category
-    5. Description
-    6. Photos
-    7. Ticket created by
-    8. Contact number
-    9. Date & Time
-    10. Assigned To
-    11. Assigned by
-    12. Ticket Status
-    13. Helpdesk Comments
-    14. User feedback
-    15. ReasonsToReopen
-    16. Kaizala User Name
-    17. Kaizala User contact number 
-    18. User Rating
+2. [Add] columns (https://support.office.com/en-us/article/create-a-column-in-a-sharepoint-list-or-library-2b0361ae-1bd3-41a3-8329-269e5f81cfa2) and [Edit]column settings for this list](https://support.office.com/en-us/article/Edit-list-settings-in-SharePoint-Online-4d35793b-246e-42a3-990c-563a83795b7f)(*as below in the same order and format*)
 
-    <img src="EmployeeHelpDesk-Images/4.png" width="800">
+Column
+Recomended settings
+-------- |---
+Department|Single line of text
+Location|Single line of text
+Category|Single line of text
+Description |Multiple lines of text
+Photos|Multiple lines of text
+CreatorName|Single line of text
+CreatorContact|Single line of text
+ReportedAt|Single line of text
+AssignedTo|Single line of text
+AssignedBy|Single line of text
+Status|Choice with options as New, Assigned, Resolved, Closed and Reopened (*These ticket stages are mandatory*)
+HelpdeskComments|Multiple lines of text
+UserFeedback|Multiple lines of text
+ReasonsToReopen|Multiple lines of text
+CreatorKaizalaName|Single line of text
+CreatorKaizalaContact|Single line of text
+UserRating|Single line of text
 
-3. For Status column set the ticket stages as - New,Assigned, Resolved, Closed and Re-opened. 
-4. To Autogenerated ID column in Sharepoint List, which will be displayed as Unique ticket ID in the card follow below steps
-      1. Go to List Settings option (gear icon at the top of the page) and Turn on Versioning for the list.  
-      2. Go to Edit View -> All Items -> Select checkbox for ID to make the ID visible. Select an appropriate “Position from Left” for the ID so that it is one of the first items in the list
-      3. Give a name for the above view and make it a default view
+4. [Edit list view](https://support.office.com/en-gb/article/edit-a-list-view-in-sharepoint-online-15916903-e79a-423f-b4e2-02d37e1ff372)to position ID in first place.This is the unique ticket ID that will be diaplyed in the card, once the ticket is assigned.
 
-> Note:User can share Feedback, Re-open and close the ticket if the ticket is moved to Resolved state.
-    
+     >Note: Download excel sheet for reference
 
 ### Import and Set up Flows
 
 This solution has 3 Flows, namely
-1. Flow to collect ticket information and list it in SharePoint
+1. Flow to collect ticket information and store it in SharePoint
 
     1. [Import](https://flow.microsoft.com/en-us/blog/import-export-bap-packages/) the "TicketCreationFlow.Zip" to your Microsoft Flow account
 
@@ -90,22 +93,24 @@ This solution has 3 Flows, namely
 
                1. Enter the Group ID or Select the Group name where you want to add the card
 
-	           2. Click on Action Package field to enter action id that you have given for "CreateTicket-ActionPackage"
+	           2. Click on Action Package field to enter action id that you have given for "CreateTicket-ActionPackage.zip"
 
                3. Map action to "All"
 
-               <img src="EmployeeHelpDesk-Images/5.JPG" width="600">
+                  <img src="EmployeeHelpDesk-Images/5.JPG" width="600">
 
           2. In the Last block
 
                1. Enter the SharePoint Site address
 
 	           2. Enter List Name
+                  
+                  <img src="EmployeeHelpDesk-Images/6.JPG" width="600">
 
-                   > Note: All the Columns in the SharePoint List will be displayed in Flow on entering Sharepoint Site address & List Name. Verify the mapping of sharepoint list fields in Flow. 
+                   > Note: All the columns in the SharePoint list will be displayed in Flow on entering Sharepoint Site address & List Name. Verify the mapping of sharepoint list fields in Flow. 
 
            3.  Save the Flow
-           <img src="EmployeeHelpDesk-Images/6.JPG" width="600">
+           
 
 2. Flow to send status updates to user, as and when updated by Help desk
 
@@ -119,7 +124,7 @@ This solution has 3 Flows, namely
 
 	           2. Enter List Name
 
-               <img src="EmployeeHelpDesk-Images/6.5.JPG" width="600">
+                  <img src="EmployeeHelpDesk-Images/6.5.JPG" width="600">
 
           2. In the last block
 
@@ -127,11 +132,11 @@ This solution has 3 Flows, namely
 
                2. Click on Action to select "Action Package" 
 
-               3. Click on Action package to enter action id that you have given for "ReplyFromHelpDesk-ActionPackage.Zip"
+               3. Click on Action package to enter action id that you have given for "StatusUpdateFromHelpDesk-ActionPackage.Zip"
 
 			   4. Map body to "ActionBody"
 
-               <img src="EmployeeHelpDesk-Images/7.JPG" width="600">
+                  <img src="EmployeeHelpDesk-Images/7.JPG" width="600">
 
         3.  Save the Flow
     
@@ -145,11 +150,11 @@ This solution has 3 Flows, namely
 
              1. Select group name or enter the group ID
 
-	         2. Click on action package to enter action id that you have given for "ReplyFromHelpDesk-ActionPackage.Zip"
+	         2. Click on action package to enter action id that you have given for "StatusUpdateFromHelpDesk-ActionPackage.Zip"
 
              3. Map action to "All"
 
-            <img src="EmployeeHelpDesk-Images/8.JPG" width="600">
+                <img src="EmployeeHelpDesk-Images/8.JPG" width="600">
 
         2. In the second block
 
@@ -157,7 +162,7 @@ This solution has 3 Flows, namely
 
              2. Enter the list name 
 
-             <img src="EmployeeHelpDesk-Images/9.JPG" width="600">
+                <img src="EmployeeHelpDesk-Images/9.JPG" width="600">
 
         3. In the Last block
 
@@ -165,8 +170,6 @@ This solution has 3 Flows, namely
 
              2. Enter the list name
 
-             3. "Map Ticket ID & User rating"???
-
-            <img src="EmployeeHelpDesk-Images/10.JPG" width="600">
+                <img src="EmployeeHelpDesk-Images/10.JPG" width="600">
 
         4.  Save the Flow
